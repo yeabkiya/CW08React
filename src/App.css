@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.dropdown-item-custom {
+  padding: 10px 15px; /* Add space inside each item */
+  margin: 5px 0;      /* Add space between items */
+  cursor: pointer;    /* Optional: Add a pointer cursor on hover */
+}
+
+.dropdown-item-custom:hover {
+  background-color: #f0f0f0; /* Optional: Highlight on hover */
+}
